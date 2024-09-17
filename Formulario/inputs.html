@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>Inputs do HTML</title>
+    </head>
+    <body>
+        <h1>Inputs do HTML</h1>
+
+        <form>
+            <!-- Campo de texto-->
+             <label for="nome">Nome</label>
+             <input type="text" id="nome" name="nome" required>
+             <br><br>
+
+             <!--Campo de Email-->
+             <label for="email">E-mail:</label>
+             <input type="email" id=email name="email" required>
+             <br><br>
+
+             <!--Campo de Senha-->
+             <label for="senha">Senha:</label>
+             <input type="password" id="senha" name="senha"required>
+             <br><br>
+
+             <!--Campo de seleção radio -->
+             <label>Genero:</label><br>
+             <input type="radio" id="masculino" name="Genero" value="m" required>
+             <label for="masculino">Masculino</label>
+             <input type="radio" id="feminino" name="Genero" value="f" required>
+             <label for="feminino">Feminino</label>
+             <br><br>
+             <!--Campo de Seleção Multipla(checkbox)-->
+             <label>Interesses:</label><br>
+             <input type="checkbox" id="backend" value="backend" name="Interesses">
+             <label for="backend">Back-End</label>
+             <input type="checkbox" id="frontend" value="frontend" nome="Interesses">
+             <label for="frontend">Front-end</label>
+             <input type="checkbox" id="mobile" value="mobile" nome="Interesses">
+             <label for="mobile">Mobile</label>
+             <br><br>
+
+             <!--Campo de  date-->
+             <label for="dataDeNascimento">data de Nascimento:</label>
+             <input type="date" id="dataDeNascimento" value="data" name="dataDeNascimento" required>
+             <br><br>
+
+             <!--Campo de arquivo(uploads) -->
+             <label for="arquivo">Foto de Perfil:</label>
+             <input type="file" name="avatar" id="arquivo">     
+             <br><br>
+
+             <!--Campo Caixa de Seleção -->
+             <label for="situacao">Situação Atual</label>
+             <select name="situacao" id="situacao">
+                <option value="" selected disabled>Selecione uma da opções</option>
+                <option value="Estudante">Estudando para se tornar um programador</option>
+                <option value="estagiario">Atuando como estagiário/trainee</option>
+                <option value="junior">Atuando como desenvolvedor júnior</option>
+                <option value="pleno">Atuando como desenvolvedor pleno</option>
+                <option value="senior">Atuando como desenvolvedor sênior</option>
+             </select>
+             <br><br>
+
+             <!--Campo de area de texto de multiplas linhas -->
+             <label for="sobre">Sobre Mim:</label>
+             <textarea name="sobre" id="sobre" cols="40" rows="6" placeholder="Fale um pouco sobre você... "></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>

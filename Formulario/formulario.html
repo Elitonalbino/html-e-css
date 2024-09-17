@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>Formulario de Inscrição</h1>
+
+    <form action="#" method="post">
+        <div>
+        <label for="nome"><strong>Nome:</label>
+        <input type="text"name=nome id="nome" required placeholder="Ex:.Eliton Albino">
+        </div>
+        <br>
+
+        <div>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" required placeholder="Ex.:email@gmail.com" re>
+       </div>
+       <br>
+
+         <div>
+        <label for="telefone">WhatsApp:</label>
+        <input type="tel" name="telefone" id="WhatsApp" required> 
+       </div>
+       <br>
+
+       <div>
+        <label>Area de Atuação:</label>
+
+        <input type="radio" id="desenvovimento" name="area"value="ADS">
+        <label  for="desenvovimento">Desenvovimento</label>
+
+        <input type="radio" id="Quality Assurance (QA)" name="area" value="QA">
+        <label for="Quality Assurance (QA)">Quality Assurance (QA)</label>
+
+        <input type="radio" id="Analise de Dados" name="area"  value="AD">
+        <label for="Analise de Dados">Analise de Dados</label>
+
+        <input type="radio" id="infraestrutura" name="area"  value="IFR">
+        <label for="infraestrutura">Infraestrutura</label>
+        </div>
+        <br>
+
+         <div>
+        <label for="observacoes">Obesevações</label>
+        <textarea name="observacoes" id="observacoes" cols="40" rows="3"></textarea>
+        </div>
+        <br>
+        
+        <div>
+        <input type="checkbox" name="receber" id="receber">
+        <label for="receber">Desejo Receber as Novidades e Ofertas por email.</label>
+       </div></strong>
+       <br>
+        <button type="submit">Enviar</button>
+    </form>
+    
+</body>
+</html>
