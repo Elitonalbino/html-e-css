@@ -1,0 +1,22 @@
+/* inline: Nao quebra a linha, lagura minima, 
+apenas aceita margem e preencimento horizontal */
+.inline{
+    display: inline;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+/*block quebra de linha, lagura maxima , aceita margem e  prencimento vertical*/
+.block{
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 30px;
+    padding-top: 10px;
+}
+.inline-block{
+    /* inline- block nao quebra linha */
+    display: inline-block;
+    margin-top: 10px;
+    padding-top: 10px;
+}
